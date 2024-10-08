@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "rnbo",
-		"rect" : [ 696.0, 141.0, 470.0, 478.0 ],
+		"rect" : [ 307.0, 123.0, 424.0, 478.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -127,7 +127,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 107.5, 405.0, 33.0, 23.0 ],
 					"rnbo_classname" : "*~",
-					"rnbo_serial" : 6,
+					"rnbo_serial" : 3,
 					"rnbo_uniqueid" : "*~_obj-8",
 					"text" : "*~ 1."
 				}
@@ -142,7 +142,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.0, 405.0, 33.0, 23.0 ],
 					"rnbo_classname" : "*~",
-					"rnbo_serial" : 5,
+					"rnbo_serial" : 4,
 					"rnbo_uniqueid" : "*~_obj-3",
 					"text" : "*~ 1."
 				}
@@ -945,9 +945,9 @@
 					"patching_rect" : [ 30.0, 90.0, 249.0, 23.0 ],
 					"rnbo_classname" : "record~",
 					"rnbo_extra_attributes" : 					{
-						"synctype" : "relative",
 						"append" : 0.0,
-						"offset" : 0.0
+						"offset" : 0.0,
+						"synctype" : "relative"
 					}
 ,
 					"rnbo_serial" : 1,
@@ -1216,9 +1216,9 @@
 					"patching_rect" : [ 210.0, 30.0, 193.0, 23.0 ],
 					"rnbo_classname" : "buffer~",
 					"rnbo_extra_attributes" : 					{
-						"fill" : "",
 						"type" : "",
-						"file" : ""
+						"file" : "",
+						"fill" : ""
 					}
 ,
 					"rnbo_serial" : 1,
@@ -1739,6 +1739,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"midpoints" : [ 83.5, 324.0, 117.0, 324.0 ],
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -1761,6 +1762,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
+					"midpoints" : [ 127.5, 315.0, 50.0, 315.0 ],
 					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
@@ -1783,6 +1785,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
+					"midpoints" : [ 39.5, 155.0, 110.5, 155.0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
