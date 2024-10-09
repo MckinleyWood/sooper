@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 640.0, 480.0 ],
+		"rect" : [ 161.0, 119.0, 640.0, 488.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -98,7 +98,7 @@
 					}
 ,
 					"outlettype" : [ "signal", "signal", "list" ],
-					"patching_rect" : [ 90.0, 195.0, 448.0, 42.0 ],
+					"patching_rect" : [ 114.0, 195.0, 400.0, 42.0 ],
 					"rnboattrcache" : 					{
 						"controls/selected" : 						{
 							"label" : "selected",
@@ -890,7 +890,7 @@
 											}
 ,
 											"drive_4" : 											{
-												"value" : 0.5
+												"value" : 0.0
 											}
 ,
 											"cutoff_low_4" : 											{
@@ -975,7 +975,7 @@
 											}
 ,
 											"drive_3" : 											{
-												"value" : 0.5
+												"value" : 0.0
 											}
 ,
 											"cutoff_low_3" : 											{
@@ -1122,7 +1122,7 @@
 											}
 ,
 											"drive_2" : 											{
-												"value" : 0.5
+												"value" : 0.0
 											}
 ,
 											"cutoff_low_2" : 											{
@@ -1238,7 +1238,7 @@
 
 							}
 ,
-							"__presetid" : "sooper_v2"
+							"__presetid" : "sooper"
 						}
 ,
 						"snapshotlist" : 						{
@@ -1247,11 +1247,11 @@
 									"filetype" : "C74Snapshot",
 									"version" : 2,
 									"minorversion" : 0,
-									"name" : "sooper_v2",
-									"origin" : "sooper_v2",
+									"name" : "sooper",
+									"origin" : "sooper",
 									"type" : "rnbo",
 									"subtype" : "",
-									"embed" : 0,
+									"embed" : 1,
 									"snapshot" : 									{
 										"__sps" : 										{
 											"p_obj-15" : 											{
@@ -1546,7 +1546,7 @@
 														}
 ,
 														"drive_4" : 														{
-															"value" : 0.5
+															"value" : 0.0
 														}
 ,
 														"cutoff_low_4" : 														{
@@ -1631,7 +1631,7 @@
 														}
 ,
 														"drive_3" : 														{
-															"value" : 0.5
+															"value" : 0.0
 														}
 ,
 														"cutoff_low_3" : 														{
@@ -1778,7 +1778,7 @@
 														}
 ,
 														"drive_2" : 														{
-															"value" : 0.5
+															"value" : 0.0
 														}
 ,
 														"cutoff_low_2" : 														{
@@ -1894,15 +1894,15 @@
 
 										}
 ,
-										"__presetid" : "sooper_v2"
+										"__presetid" : "sooper"
 									}
 ,
 									"fileref" : 									{
-										"name" : "sooper_v2",
-										"filename" : "sooper_v2.maxsnap",
+										"name" : "sooper",
+										"filename" : "sooper_20241009.maxsnap",
 										"filepath" : "~/Documents/Max 8/Snapshots",
 										"filepos" : -1,
-										"snapshotfileid" : "b5d66b88fe2af91b1e44ee5b8f8b6660"
+										"snapshotfileid" : "1dbe005e549756d34cdac88a198d6be2"
 									}
 
 								}
@@ -1911,7 +1911,7 @@
 
 					}
 ,
-					"text" : "rnbo~ @patchername sooper_v2",
+					"text" : "rnbo~ @patchername sooper",
 					"varname" : "rnbo~"
 				}
 
@@ -1933,17 +1933,17 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "sooper_v2.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sooper_v2.rnbopat",
+				"name" : "sooper.rnbopat",
 				"bootpath" : "~/Library/CloudStorage/OneDrive-UniversityofVictoria/Max/Pi/sooper",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sooper_20241009.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
 				"implicit" : 1
 			}
  ],
